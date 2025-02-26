@@ -31,8 +31,8 @@ export function Header() {
               <nav className="hidden md:flex items-center gap-6">
                 <Link to="/" className="text-gray-800 hover:text-gold-600 transition">Home</Link>
                 <Link to="/gallery" className="text-gray-800 hover:text-gold-600 transition">Gallery</Link>
-                <Link to="#" className="text-gray-800 hover:text-gold-600 transition">About</Link>
-                <Link to="#" className="text-gray-800 hover:text-gold-600 transition">Contact</Link>
+                <Link to="/about" className="text-gray-800 hover:text-gold-600 transition">About</Link>
+                <Link to="/contact" className="text-gray-800 hover:text-gold-600 transition">Contact</Link>
               </nav>
             </div>
             <div className="flex items-center gap-4">
